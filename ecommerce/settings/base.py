@@ -118,19 +118,19 @@ REST_FRAMEWORK = {
 # Email Settings
 #SEND_GRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'aswinelavarasan@gmail.com'
-EMAIL_HOST_PASSWORD = 'Zjanuary@05'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'aswinelavarasan@gmail.com'
+DEFAULT_FROM_EMAIL = ''
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
 MANAGERS = (
-    ('aswinelavarasan@gmail.com', 'Aswin Elavarasan'),
+    ('', 'Aswin Elavarasan'),
 )
 
 ADMINS = (
-    ('aswinelavarasan@gmail.com', 'Aswin Elavarasan'),
+    ('', 'Aswin Elavarasan'),
 )
 
 # Static File Settings
